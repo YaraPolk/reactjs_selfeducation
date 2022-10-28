@@ -40,8 +40,6 @@ function App() {
     const [prods, setProds] = useState(initProds);
 
     function show(event, id) {
-        console.log(event.target.className);
-
         setProds(prods.map(prod => {
             if (prod.id !== id){
                 return prod;
