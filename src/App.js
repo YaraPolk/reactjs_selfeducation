@@ -6,46 +6,73 @@ function id() {
     return uuid();
 }
 
-const initNotes = [
+const initProds = [
     {
         id: id(),
-        name: 'name1',
+        name: 'prod1',
+        cost: 'cost1',
         desc: 'long description 1',
-        show: false,
+        showDesc: false,
+        comm: 'my super comment 1',
+        showComm: false,
     },
     {
         id: id(),
-        name: 'name2',
+        name: 'prod2',
+        cost: 'cost2',
         desc: 'long description 2',
-        show: false,
+        showDesc: false,
+        comm: 'my super comment 2',
+        showComm: false,
     },
     {
         id: id(),
-        name: 'name3',
+        name: 'prod3',
+        cost: 'cost3',
         desc: 'long description 3',
-        show: false,
+        showDesc: false,
+        comm: 'my super comment 3',
+        showComm: false,
     },
 ];
 
 function App() {
-    const [notes, setNotes] = useState(initNotes);
+    const [prods, setProds] = useState(initProds);
 
-    function showDesc(id) {
-        setNotes(notes.map(note => {
-            if (note.id !== id) {
-                return note;
+    function show(event, id) {
+        console.log(event.target.className);
+
+        setProds(prods.map(prod => {
+            if (prod.id !== id){
+                return prod;
+            } else if (event.target.className === 'desc') {
+                return {...prod, showDesc: !prod.showDesc};
             } else {
-                return {...note, show: !note.show};
+                return {...prod, showComm: !prod.showComm};
             }
         }))
     }
 
-    const result = notes.map(note => {
-        return <p key={note.id}>
-            {note.name}, {note.show && note.desc}
-            <button onClick={() => showDesc(note.id)}>{note.show ? "hide" : "show"}</button>
-        </p>;
-    })
+    const result = prods.map(prod => {
+        return (
+            <>
+                <ul key={prod.id}>
+                    <li>name: {prod.name}</li>
+                    <li>cost: {prod.cost}</li>
+                    {prod.showDesc && <li>{prod.desc}</li>}
+                    {prod.showComm && <li>{prod.comm}</li>}
+                </ul>
+                <div>
+                    <button onClick={event => show(event, prod.id)} className={"desc"}>
+                        {prod.showDesc ? "hide desc" : "show desc"}
+                    </button>
+                    <button onClick={event => show(event, prod.id)} className={"comm"}>
+                        {prod.showComm ? "hide comm" : "show comm"}
+                    </button>
+                </div>
+            </>
+        );
+        });
 
     return (
         <>
