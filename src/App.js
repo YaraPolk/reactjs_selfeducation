@@ -1,25 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from "react";
+import uuid from "react-uuid";
+
+function id() {
+    return uuid();
+}
+
+const initNotes = [
+    {
+        id: id(),
+        name: 'name1',
+        desc: 'long description 1'
+    },
+    {
+        id: id(),
+        name: 'name2',
+        desc: 'long description 2'
+    },
+    {
+        id: id(),
+        name: 'name3',
+        desc: 'long description 3'
+    },
+];
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [notes, setNotes] = useState(initNotes);
+
+    const result = notes.map(note => {
+        return <p key={note.id}>{note.name}, {note.desc}</p>;
+    })
+
+    return (
+        <>
+            {result}
+        </>
+    );
 }
 
 export default App;
