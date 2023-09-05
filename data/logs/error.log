@@ -1,0 +1,307 @@
+2023/09/05 08:17:13 [notice] 1#1: using the "epoll" event method
+2023/09/05 08:17:13 [notice] 1#1: nginx/1.24.0
+2023/09/05 08:17:13 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/09/05 08:17:13 [notice] 1#1: OS: Linux 6.2.0-31-generic
+2023/09/05 08:17:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2023/09/05 08:17:13 [notice] 1#1: start worker processes
+2023/09/05 08:17:13 [notice] 1#1: start worker process 20
+2023/09/05 08:17:13 [notice] 1#1: start worker process 21
+2023/09/05 08:17:13 [notice] 1#1: start worker process 22
+2023/09/05 08:17:13 [notice] 1#1: start worker process 23
+2023/09/05 08:17:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/09/05 08:17:32 [notice] 21#21: gracefully shutting down
+2023/09/05 08:17:32 [notice] 20#20: gracefully shutting down
+2023/09/05 08:17:32 [notice] 21#21: exiting
+2023/09/05 08:17:32 [notice] 20#20: exiting
+2023/09/05 08:17:32 [notice] 23#23: gracefully shutting down
+2023/09/05 08:17:32 [notice] 22#22: gracefully shutting down
+2023/09/05 08:17:32 [notice] 23#23: exiting
+2023/09/05 08:17:32 [notice] 22#22: exiting
+2023/09/05 08:17:32 [notice] 20#20: exit
+2023/09/05 08:17:32 [notice] 21#21: exit
+2023/09/05 08:17:32 [notice] 23#23: exit
+2023/09/05 08:17:32 [notice] 22#22: exit
+2023/09/05 08:17:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/09/05 08:17:32 [notice] 1#1: worker process 23 exited with code 0
+2023/09/05 08:17:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 08:17:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/09/05 08:17:32 [notice] 1#1: worker process 20 exited with code 0
+2023/09/05 08:17:32 [notice] 1#1: worker process 21 exited with code 0
+2023/09/05 08:17:32 [notice] 1#1: worker process 22 exited with code 0
+2023/09/05 08:17:32 [notice] 1#1: exit
+2023/09/05 08:17:42 [notice] 1#1: using the "epoll" event method
+2023/09/05 08:17:42 [notice] 1#1: nginx/1.24.0
+2023/09/05 08:17:42 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/09/05 08:17:42 [notice] 1#1: OS: Linux 6.2.0-31-generic
+2023/09/05 08:17:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2023/09/05 08:17:42 [notice] 1#1: start worker processes
+2023/09/05 08:17:42 [notice] 1#1: start worker process 20
+2023/09/05 08:17:42 [notice] 1#1: start worker process 21
+2023/09/05 08:17:42 [notice] 1#1: start worker process 22
+2023/09/05 08:17:42 [notice] 1#1: start worker process 23
+2023/09/05 08:20:28 [error] 22#22: *1 "/var/www/backend/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: backend.local, request: "GET / HTTP/1.1", host: "backend.local"
+2023/09/05 08:20:28 [error] 22#22: *1 open() "/var/www/backend/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:20:30 [error] 22#22: *1 "/var/www/backend/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: backend.local, request: "GET / HTTP/1.1", host: "backend.local"
+2023/09/05 08:20:30 [error] 22#22: *1 open() "/var/www/backend/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:20:31 [error] 22#22: *1 "/var/www/backend/index.php" is not found (2: No such file or directory), client: 172.22.0.1, server: backend.local, request: "GET / HTTP/1.1", host: "backend.local"
+2023/09/05 08:20:32 [error] 22#22: *1 open() "/var/www/backend/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:20:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/09/05 08:20:58 [notice] 23#23: gracefully shutting down
+2023/09/05 08:20:58 [notice] 23#23: exiting
+2023/09/05 08:20:58 [notice] 20#20: gracefully shutting down
+2023/09/05 08:20:58 [notice] 23#23: exit
+2023/09/05 08:20:58 [notice] 22#22: gracefully shutting down
+2023/09/05 08:20:58 [notice] 22#22: exiting
+2023/09/05 08:20:58 [notice] 22#22: exit
+2023/09/05 08:20:58 [notice] 21#21: gracefully shutting down
+2023/09/05 08:20:58 [notice] 21#21: exiting
+2023/09/05 08:20:58 [notice] 21#21: exit
+2023/09/05 08:20:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/09/05 08:20:58 [notice] 1#1: worker process 22 exited with code 0
+2023/09/05 08:20:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 08:20:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/09/05 08:20:58 [notice] 1#1: worker process 21 exited with code 0
+2023/09/05 08:20:58 [notice] 1#1: worker process 23 exited with code 0
+2023/09/05 08:20:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 08:20:59 [notice] 20#20: exiting
+2023/09/05 08:20:59 [notice] 20#20: exit
+2023/09/05 08:20:59 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/09/05 08:20:59 [notice] 1#1: worker process 20 exited with code 0
+2023/09/05 08:20:59 [notice] 1#1: exit
+2023/09/05 08:21:08 [notice] 1#1: using the "epoll" event method
+2023/09/05 08:21:08 [notice] 1#1: nginx/1.24.0
+2023/09/05 08:21:08 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/09/05 08:21:08 [notice] 1#1: OS: Linux 6.2.0-31-generic
+2023/09/05 08:21:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2023/09/05 08:21:08 [notice] 1#1: start worker processes
+2023/09/05 08:21:08 [notice] 1#1: start worker process 20
+2023/09/05 08:21:08 [notice] 1#1: start worker process 21
+2023/09/05 08:21:08 [notice] 1#1: start worker process 22
+2023/09/05 08:21:08 [notice] 1#1: start worker process 23
+2023/09/05 08:27:21 [error] 23#23: *6 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:27:22 [error] 23#23: *6 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:27:43 [error] 23#23: *6 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:29:13 [error] 20#20: *11 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:29:37 [error] 20#20: *11 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:30:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/09/05 08:30:34 [notice] 20#20: gracefully shutting down
+2023/09/05 08:30:34 [notice] 23#23: gracefully shutting down
+2023/09/05 08:30:34 [notice] 23#23: exiting
+2023/09/05 08:30:34 [notice] 22#22: gracefully shutting down
+2023/09/05 08:30:34 [notice] 20#20: exiting
+2023/09/05 08:30:34 [notice] 22#22: exiting
+2023/09/05 08:30:34 [notice] 23#23: exit
+2023/09/05 08:30:34 [notice] 20#20: exit
+2023/09/05 08:30:34 [notice] 22#22: exit
+2023/09/05 08:30:34 [notice] 21#21: gracefully shutting down
+2023/09/05 08:30:34 [notice] 21#21: exiting
+2023/09/05 08:30:34 [notice] 21#21: exit
+2023/09/05 08:30:34 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/09/05 08:30:34 [notice] 1#1: worker process 20 exited with code 0
+2023/09/05 08:30:34 [notice] 1#1: worker process 21 exited with code 0
+2023/09/05 08:30:34 [notice] 1#1: worker process 22 exited with code 0
+2023/09/05 08:30:34 [notice] 1#1: worker process 23 exited with code 0
+2023/09/05 08:30:34 [notice] 1#1: exit
+2023/09/05 08:30:40 [notice] 1#1: using the "epoll" event method
+2023/09/05 08:30:40 [notice] 1#1: nginx/1.24.0
+2023/09/05 08:30:40 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/09/05 08:30:40 [notice] 1#1: OS: Linux 6.2.0-31-generic
+2023/09/05 08:30:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2023/09/05 08:30:40 [notice] 1#1: start worker processes
+2023/09/05 08:30:40 [notice] 1#1: start worker process 20
+2023/09/05 08:30:40 [notice] 1#1: start worker process 21
+2023/09/05 08:30:40 [notice] 1#1: start worker process 22
+2023/09/05 08:30:40 [notice] 1#1: start worker process 23
+2023/09/05 08:30:43 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:30:44 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:20 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:20 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:21 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:22 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:30 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:44 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:45 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:46 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:46 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:47 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:31:47 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:32:11 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:32:12 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:32:12 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:32:13 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:33:00 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:33:01 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:33:01 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:33:33 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:33:34 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:33:35 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:33:35 [error] 22#22: *4 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:34:52 [error] 21#21: *34 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:34:53 [error] 21#21: *34 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:34:53 [error] 21#21: *34 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:34:54 [error] 21#21: *34 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:35:28 [error] 21#21: *34 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:35:29 [error] 21#21: *34 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:35:30 [error] 21#21: *34 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:37:05 [error] 21#21: *47 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:49:34 [error] 21#21: *50 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:49:35 [error] 21#21: *50 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:49:36 [error] 21#21: *50 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:53:09 [error] 20#20: *57 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:53:40 [error] 20#20: *57 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:53:41 [error] 20#20: *57 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:56:15 [error] 21#21: *62 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:57:34 [error] 21#21: *65 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:57:34 [error] 21#21: *65 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:58:06 [error] 21#21: *65 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 08:58:07 [error] 21#21: *65 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.27.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:01:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/09/05 09:01:04 [notice] 20#20: gracefully shutting down
+2023/09/05 09:01:04 [notice] 22#22: gracefully shutting down
+2023/09/05 09:01:04 [notice] 20#20: exiting
+2023/09/05 09:01:04 [notice] 22#22: exiting
+2023/09/05 09:01:04 [notice] 22#22: exit
+2023/09/05 09:01:04 [notice] 20#20: exit
+2023/09/05 09:01:04 [notice] 21#21: gracefully shutting down
+2023/09/05 09:01:04 [notice] 21#21: exiting
+2023/09/05 09:01:04 [notice] 21#21: exit
+2023/09/05 09:01:04 [notice] 23#23: gracefully shutting down
+2023/09/05 09:01:04 [notice] 23#23: exiting
+2023/09/05 09:01:04 [notice] 23#23: exit
+2023/09/05 09:01:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/09/05 09:01:05 [notice] 1#1: worker process 20 exited with code 0
+2023/09/05 09:01:05 [notice] 1#1: worker process 22 exited with code 0
+2023/09/05 09:01:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 09:01:05 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/09/05 09:01:05 [notice] 1#1: worker process 21 exited with code 0
+2023/09/05 09:01:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 09:01:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/09/05 09:01:05 [notice] 1#1: worker process 23 exited with code 0
+2023/09/05 09:01:05 [notice] 1#1: exit
+2023/09/05 09:01:32 [notice] 1#1: using the "epoll" event method
+2023/09/05 09:01:32 [notice] 1#1: nginx/1.24.0
+2023/09/05 09:01:32 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/09/05 09:01:32 [notice] 1#1: OS: Linux 6.2.0-31-generic
+2023/09/05 09:01:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2023/09/05 09:01:32 [notice] 1#1: start worker processes
+2023/09/05 09:01:32 [notice] 1#1: start worker process 19
+2023/09/05 09:01:32 [notice] 1#1: start worker process 20
+2023/09/05 09:01:32 [notice] 1#1: start worker process 21
+2023/09/05 09:01:32 [notice] 1#1: start worker process 22
+2023/09/05 09:01:39 [error] 20#20: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:01:58 [error] 20#20: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:02:34 [error] 20#20: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:02:36 [error] 20#20: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:02:37 [error] 20#20: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:02:46 [error] 20#20: *2 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:04:15 [error] 22#22: *10 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:08:33 [error] 19#19: *13 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:08:34 [error] 19#19: *13 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:09:03 [error] 19#19: *14 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/wp-admin/setup-config.php"
+2023/09/05 09:11:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/09/05 09:11:18 [notice] 21#21: gracefully shutting down
+2023/09/05 09:11:18 [notice] 22#22: gracefully shutting down
+2023/09/05 09:11:18 [notice] 21#21: exiting
+2023/09/05 09:11:18 [notice] 22#22: exiting
+2023/09/05 09:11:18 [notice] 20#20: gracefully shutting down
+2023/09/05 09:11:18 [notice] 20#20: exiting
+2023/09/05 09:11:18 [notice] 19#19: gracefully shutting down
+2023/09/05 09:11:18 [notice] 19#19: exiting
+2023/09/05 09:11:18 [notice] 22#22: exit
+2023/09/05 09:11:18 [notice] 20#20: exit
+2023/09/05 09:11:18 [notice] 19#19: exit
+2023/09/05 09:11:18 [notice] 21#21: exit
+2023/09/05 09:11:18 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/09/05 09:11:18 [notice] 1#1: worker process 21 exited with code 0
+2023/09/05 09:11:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 09:11:18 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/09/05 09:11:18 [notice] 1#1: worker process 22 exited with code 0
+2023/09/05 09:11:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 09:11:18 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/09/05 09:11:18 [notice] 1#1: worker process 20 exited with code 0
+2023/09/05 09:11:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 09:11:18 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2023/09/05 09:11:18 [notice] 1#1: worker process 19 exited with code 0
+2023/09/05 09:11:18 [notice] 1#1: exit
+2023/09/05 09:11:20 [notice] 1#1: using the "epoll" event method
+2023/09/05 09:11:20 [notice] 1#1: nginx/1.24.0
+2023/09/05 09:11:20 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/09/05 09:11:20 [notice] 1#1: OS: Linux 6.2.0-31-generic
+2023/09/05 09:11:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2023/09/05 09:11:20 [notice] 1#1: start worker processes
+2023/09/05 09:11:20 [notice] 1#1: start worker process 19
+2023/09/05 09:11:20 [notice] 1#1: start worker process 20
+2023/09/05 09:11:20 [notice] 1#1: start worker process 21
+2023/09/05 09:11:20 [notice] 1#1: start worker process 22
+2023/09/05 09:11:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/09/05 09:11:27 [notice] 20#20: gracefully shutting down
+2023/09/05 09:11:27 [notice] 21#21: gracefully shutting down
+2023/09/05 09:11:27 [notice] 19#19: gracefully shutting down
+2023/09/05 09:11:27 [notice] 20#20: exiting
+2023/09/05 09:11:27 [notice] 21#21: exiting
+2023/09/05 09:11:27 [notice] 19#19: exiting
+2023/09/05 09:11:27 [notice] 21#21: exit
+2023/09/05 09:11:27 [notice] 20#20: exit
+2023/09/05 09:11:27 [notice] 19#19: exit
+2023/09/05 09:11:27 [notice] 22#22: gracefully shutting down
+2023/09/05 09:11:27 [notice] 22#22: exiting
+2023/09/05 09:11:27 [notice] 22#22: exit
+2023/09/05 09:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/09/05 09:11:27 [notice] 1#1: worker process 20 exited with code 0
+2023/09/05 09:11:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 09:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/09/05 09:11:27 [notice] 1#1: worker process 22 exited with code 0
+2023/09/05 09:11:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 09:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2023/09/05 09:11:27 [notice] 1#1: worker process 19 exited with code 0
+2023/09/05 09:11:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/09/05 09:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/09/05 09:11:27 [notice] 1#1: worker process 21 exited with code 0
+2023/09/05 09:11:27 [notice] 1#1: exit
+2023/09/05 09:11:52 [notice] 1#1: using the "epoll" event method
+2023/09/05 09:11:52 [notice] 1#1: nginx/1.24.0
+2023/09/05 09:11:52 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/09/05 09:11:52 [notice] 1#1: OS: Linux 6.2.0-31-generic
+2023/09/05 09:11:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2023/09/05 09:11:52 [notice] 1#1: start worker processes
+2023/09/05 09:11:52 [notice] 1#1: start worker process 19
+2023/09/05 09:11:52 [notice] 1#1: start worker process 20
+2023/09/05 09:11:52 [notice] 1#1: start worker process 21
+2023/09/05 09:11:52 [notice] 1#1: start worker process 22
+2023/09/05 09:12:36 [error] 19#19: *6 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/09/05 09:14:23 [error] 19#19: *6 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:16:52 [error] 19#19: *14 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:17:02 [error] 19#19: *14 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:17:19 [error] 19#19: *14 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:17:21 [error] 19#19: *14 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:17:41 [error] 19#19: *14 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:17:42 [error] 19#19: *14 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:18:15 [error] 19#19: *14 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:23:30 [error] 19#19: *24 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:23:31 [error] 19#19: *24 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:23:40 [error] 19#19: *24 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:26:08 [error] 19#19: *29 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:29:07 [error] 19#19: *32 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:30:02 [error] 19#19: *32 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:30:04 [error] 19#19: *32 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:30:46 [error] 19#19: *32 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:30:47 [error] 19#19: *32 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:30:48 [error] 19#19: *32 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:31:51 [error] 19#19: *32 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:33:59 [error] 19#19: *43 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:34:45 [error] 19#19: *43 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:35:45 [error] 19#19: *43 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:37:10 [error] 20#20: *50 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:37:11 [error] 20#20: *50 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:38:59 [error] 20#20: *54 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:40:03 [error] 20#20: *54 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:40:31 [error] 20#20: *54 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/index.php"
+2023/09/05 09:48:31 [error] 21#21: *76 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:50:05 [error] 20#20: *83 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 09:50:51 [error] 20#20: *83 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 10:01:13 [error] 21#21: *109 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 10:01:14 [error] 21#21: *109 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 10:01:44 [error] 21#21: *109 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 10:05:18 [error] 21#21: *126 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 10:49:37 [error] 22#22: *175 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /favicon.ico HTTP/1.1", host: "backend.local", referrer: "http://backend.local/"
+2023/09/05 11:47:50 [error] 22#22: *206 open() "/var/www/123_s.jpg" failed (2: No such file or directory), client: 172.30.0.1, server: backend.local, request: "GET /123_s.jpg HTTP/1.1", host: "localhost", referrer: "https://www.cyberforum.ru/php-beginners/thread972571.html"

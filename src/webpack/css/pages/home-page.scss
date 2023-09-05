@@ -1,0 +1,63 @@
+.home-page {
+  max-width: 100%;
+  width: calc(100% - 80px);
+  display: flex;
+  margin: 40px;
+
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: calc(100vh - 180px);
+  color: $general-color-text;
+
+  h2 {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__to-do-list-container {
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px 0 $shadow-color;
+    width: 100%;
+    height: calc(100vh - 340px);
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+
+    .active-tasks,
+    .closed-tasks {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 45%;
+      height: 90%;
+      margin: 20px 50px;
+
+      ol {
+        padding: 0;
+        font-size: 26px;
+
+        .closed {
+          text-decoration: line-through;
+          color: $closed-task;
+        }
+      }
+    }
+
+
+    .line {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 5px;
+      border-radius: 5px;
+      background-color: $shadow-color;
+      box-shadow: inset 1px 1px 4px 0 $shadow-color;
+      margin: 20px 0;
+      height: calc(100% - 40px);
+    }
+  }
+}
